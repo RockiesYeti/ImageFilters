@@ -15,13 +15,7 @@ using namespace std::filesystem;
 
 
 
-//
-// To compile your code after making changes to any of the files:
-// $ make
-//
-// To run your code after compiling:
-// $ ./main
-//
+
 
 int main()
 {
