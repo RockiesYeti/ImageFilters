@@ -68,8 +68,6 @@ string createOutputPath(path originalFilePath, string processName);
 int readInImageFile(path inputFile, int userChoice, map<int, ImageProcessor> mapOfProcessors);
 
 int maximum(int a, int b, int c);
-//
-// PLACE ADDITIONAL FORWARD DECLARATIONS HERE
-//
+
 
 #endif
