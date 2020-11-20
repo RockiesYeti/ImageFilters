@@ -3,11 +3,7 @@
 #include <cmath>
 #include <list>
 #include <iterator>
-
-//******************************************************************************
-// Do not modify the code in this section
-
-/** DO NOT MODIFY
+/*
  * Sets a value to the char array starting at the offset using the size
  * specified by the bytes.
  * This is a helper function for write_image()
@@ -22,7 +18,7 @@ void set_bytes(unsigned char arr[], int offset, int bytes, int value) {
     }
 }
 
-/** DO NOT MODIFY
+/** 
  * Write the input image to a BMP file name specified
  * @param filename The BMP file name to save the image to
  * @param image    The input image to save
@@ -104,8 +100,7 @@ bool write_image(string filename, const vector<vector<vector<int> > >& image) {
     return true;
 }
 
-/** DO NOT MODIFY
- * NOTE: This is a helper function from the Big C++ for your read_image function
+/** 
  * Gets an integer from a binary stream.
  * @param stream the stream
  * @param offset the offset at which to read the integer
